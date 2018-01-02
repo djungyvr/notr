@@ -1,0 +1,3 @@
+mkdir -p $HOME/bin
+
+go build -o $HOME/bin/notr main.go
