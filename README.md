@@ -34,3 +34,12 @@ notr --help
 4. Write tests if necessary for the changes you have created
 5. Push to the branch `git push origin <issue_label>/some-descriptive-name`
 6. Create a Pull Request
+
+### Contribution practices 
+In order to maintain consistency in the workflow here are some guidelines to follow. PRs and Issues will be declined/asked to be changed if they are not followed. Any improvements to this are encouraged and welcomed!
+
+- Commit messages and PRs should start with some sort of action "Adds, Updates, Removes etc". Please see the example commits as an example as well as [this](https://chris.beams.io/posts/git-commit/)
+- If the issue addresses something that is visible to the user please add "feature" otherwise add "enhancement" as a label
+- Issues that are straightforward please add "good first issue"
+- When making a PR please add in the description or comment which issue it resolves. Something like "Resolves #3".
+- If your branch has multiple commits that do the same logical thing ie. edits the README twice then please squash into one
