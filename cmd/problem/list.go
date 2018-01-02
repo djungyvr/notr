@@ -23,7 +23,7 @@ func NewListCommand() *cobra.Command {
 	}
 	listCommand.Flags().StringVarP(&searchText, "search", "f", "", "search text")
 	listCommand.Flags().StringVarP(&searchStatus, "status", "s", "", "problem status")
-	listCommand.Flags().BoolVarP(&bePretty, "pretty", "p", false, "pretty output with color")
+	listCommand.Flags().BoolVarP(&bePretty, "pretty", "p", true, "pretty output with color")
 	return listCommand
 }
 
